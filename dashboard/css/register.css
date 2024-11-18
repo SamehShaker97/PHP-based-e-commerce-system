@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eff2f1;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* small*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* larg */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.form-admin-register{
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+margin: 3rem auto;
+width: 50%;
+height: 85vh;
+padding: 1rem;  
+border-radius: 2rem;
+-webkit-border-radius: 2rem;
+-moz-border-radius: 2rem;
+-ms-border-radius: 2rem;
+-o-border-radius: 2rem;
+}
+.form-admin-register form{
+padding: 20px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.form-admin-register form .inputName { 
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.form-admin-register form .inputName input{ 
+width: 40%;
+}
+.form-admin-register form input{
+width: 64%;
+padding: 0.5rem 1rem;
+margin-bottom: 1rem;
+border: 0.1rem solid #fff;
+border-radius: 0.5rem;
+}
+.form-admin-register form input:focus{
+outline: none;
+}
+.form-admin-register .register-btn{
+width: 60%;
+margin: 1rem;
+padding: 0.5rem;
+font-size: 1.1rem;
+color: #2f2f2f;
+background-color: #f9bf29;
+border: 0.1rem solid transparent;
+border-radius: 0.5rem;
+}
+.form-admin-register .register-btn:hover{
+background-color: #d69d0c;
+border: 0.1rem solid #d69d0c;
+}
+.form-admin-register form button{
+width: 60%;
+padding: 0.5rem;
+font-size: 1.1rem;
+margin: 0.3rem;
+border-radius: 0.5rem;
+}
+.error p{
+color: #e74c3c;
+margin-top: -10px;
+margin-left: -170px;
+font-weight: bold;
+align-items: left;
+}
+.text{
+padding: 0.5rem;
+font-size: 1.5rem;
+color: #2f2f2f;
+}
+.text h1{
+color: #f9bf29;
+font-family: "Moon Dance", cursive;
+font-weight: bold;
+}
+.signin{
+color: #2f2f2f;
+text-align: center;
+margin-bottom: 1rem;
+margin-top: -5px;
+}
+.signin a{
+text-decoration: none;
+}
